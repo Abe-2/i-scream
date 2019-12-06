@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FBDDCAA4AF720591284DE45 /* Pods_i_scream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC37118BB12115B083FA1 /* Pods_i_scream.framework */; };
+		A857491D239AB6D20034EC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857491C239AB6D20034EC39 /* AppDelegate.swift */; };
+		A857491F239AB6D20034EC39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857491E239AB6D20034EC39 /* SceneDelegate.swift */; };
+		A8574921239AB6D20034EC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8574920239AB6D20034EC39 /* ViewController.swift */; };
+		A8574924239AB6D20034EC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8574922239AB6D20034EC39 /* Main.storyboard */; };
+		A8574926239AB6D40034EC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8574925239AB6D40034EC39 /* Assets.xcassets */; };
+		A8574929239AB6D40034EC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8574927239AB6D40034EC39 /* LaunchScreen.storyboard */; };
+		A8574931239ABAC70034EC39 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8574930239ABAC70034EC39 /* Model.swift */; };
+		A8574933239ABED60034EC39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8574932239ABED60034EC39 /* GoogleService-Info.plist */; };
+		A8574935239AC2E40034EC39 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8574934239AC2E40034EC39 /* CreateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06EFC37118BB12115B083FA1 /* Pods_i_scream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_i_scream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7B094038B789075B5F14B3 /* Pods-i-scream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i-scream.release.xcconfig"; path = "Target Support Files/Pods-i-scream/Pods-i-scream.release.xcconfig"; sourceTree = "<group>"; };
+		A8574919239AB6D20034EC39 /* i-scream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i-scream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A857491C239AB6D20034EC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A857491E239AB6D20034EC39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8574920239AB6D20034EC39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8574923239AB6D20034EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8574925239AB6D40034EC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8574928239AB6D40034EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A857492A239AB6D40034EC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8574930239ABAC70034EC39 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A8574932239ABED60034EC39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8574934239AC2E40034EC39 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		E940E64FE50D78EEDAF155DD /* Pods-i-scream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i-scream.debug.xcconfig"; path = "Target Support Files/Pods-i-scream/Pods-i-scream.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8574916239AB6D20034EC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBDDCAA4AF720591284DE45 /* Pods_i_scream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8574910239AB6D20034EC39 = {
+			isa = PBXGroup;
+			children = (
+				A857491B239AB6D20034EC39 /* i-scream */,
+				A857491A239AB6D20034EC39 /* Products */,
+				CE3871EB4CFB41C998F41E41 /* Pods */,
+				F3C6436F5FFC241E314C3995 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A857491A239AB6D20034EC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8574919239AB6D20034EC39 /* i-scream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A857491B239AB6D20034EC39 /* i-scream */ = {
+			isa = PBXGroup;
+			children = (
+				A857491C239AB6D20034EC39 /* AppDelegate.swift */,
+				A857491E239AB6D20034EC39 /* SceneDelegate.swift */,
+				A8574920239AB6D20034EC39 /* ViewController.swift */,
+				A8574934239AC2E40034EC39 /* CreateViewController.swift */,
+				A8574930239ABAC70034EC39 /* Model.swift */,
+				A8574922239AB6D20034EC39 /* Main.storyboard */,
+				A8574925239AB6D40034EC39 /* Assets.xcassets */,
+				A8574927239AB6D40034EC39 /* LaunchScreen.storyboard */,
+				A857492A239AB6D40034EC39 /* Info.plist */,
+				A8574932239ABED60034EC39 /* GoogleService-Info.plist */,
+			);
+			path = "i-scream";
+			sourceTree = "<group>";
+		};
+		CE3871EB4CFB41C998F41E41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E940E64FE50D78EEDAF155DD /* Pods-i-scream.debug.xcconfig */,
+				1B7B094038B789075B5F14B3 /* Pods-i-scream.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3C6436F5FFC241E314C3995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC37118BB12115B083FA1 /* Pods_i_scream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8574918239AB6D20034EC39 /* i-scream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A857492D239AB6D40034EC39 /* Build configuration list for PBXNativeTarget "i-scream" */;
+			buildPhases = (
+				31F3EF12664FD4512157241B /* [CP] Check Pods Manifest.lock */,
+				A8574915239AB6D20034EC39 /* Sources */,
+				A8574916239AB6D20034EC39 /* Frameworks */,
+				A8574917239AB6D20034EC39 /* Resources */,
+				C3F9E650160C4D7B20EAF9C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "i-scream";
+			productName = "i-scream";
+			productReference = A8574919239AB6D20034EC39 /* i-scream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8574911239AB6D20034EC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = team;
+				TargetAttributes = {
+					A8574918239AB6D20034EC39 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = A8574914239AB6D20034EC39 /* Build configuration list for PBXProject "i-scream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8574910239AB6D20034EC39;
+			productRefGroup = A857491A239AB6D20034EC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8574918239AB6D20034EC39 /* i-scream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8574917239AB6D20034EC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574929239AB6D40034EC39 /* LaunchScreen.storyboard in Resources */,
+				A8574933239ABED60034EC39 /* GoogleService-Info.plist in Resources */,
+				A8574926239AB6D40034EC39 /* Assets.xcassets in Resources */,
+				A8574924239AB6D20034EC39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F3EF12664FD4512157241B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-i-scream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F9E650160C4D7B20EAF9C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-i-scream/Pods-i-scream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-i-scream/Pods-i-scream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-i-scream/Pods-i-scream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8574915239AB6D20034EC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8574935239AC2E40034EC39 /* CreateViewController.swift in Sources */,
+				A8574921239AB6D20034EC39 /* ViewController.swift in Sources */,
+				A857491D239AB6D20034EC39 /* AppDelegate.swift in Sources */,
+				A857491F239AB6D20034EC39 /* SceneDelegate.swift in Sources */,
+				A8574931239ABAC70034EC39 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8574922239AB6D20034EC39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8574923239AB6D20034EC39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8574927239AB6D40034EC39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8574928239AB6D40034EC39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A857492B239AB6D40034EC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A857492C239AB6D40034EC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A857492E239AB6D40034EC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E940E64FE50D78EEDAF155DD /* Pods-i-scream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBVEFFGT2S;
+				INFOPLIST_FILE = "i-scream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.i-scream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A857492F239AB6D40034EC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7B094038B789075B5F14B3 /* Pods-i-scream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBVEFFGT2S;
+				INFOPLIST_FILE = "i-scream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.i-scream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8574914239AB6D20034EC39 /* Build configuration list for PBXProject "i-scream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857492B239AB6D40034EC39 /* Debug */,
+				A857492C239AB6D40034EC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A857492D239AB6D40034EC39 /* Build configuration list for PBXNativeTarget "i-scream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857492E239AB6D40034EC39 /* Debug */,
+				A857492F239AB6D40034EC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8574911239AB6D20034EC39 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>35728490554-nb7mmuo46cf7ou5soinid7ml61p0cgg6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.35728490554-nb7mmuo46cf7ou5soinid7ml61p0cgg6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsJxpFEbMjoS7quN-wa_xc_Xq5WiTJNbw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>35728490554</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>none.i-scream</string>
+	<key>PROJECT_ID</key>
+	<string>i-sream</string>
+	<key>STORAGE_BUCKET</key>
+	<string>i-sream.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:35728490554:ios:21e975cbf255d9c065b503</string>
+	<key>DATABASE_URL</key>
+	<string>https://i-sream.firebaseio.com</string>
+</dict>
+</plist>
